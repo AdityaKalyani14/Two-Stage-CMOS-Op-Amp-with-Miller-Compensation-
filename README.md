@@ -9,19 +9,19 @@ This repository presents the design and analysis of Fully Differential Two-Stage
 7. [Netist](#Netlist)
 8. [Observation](#Observation)
 9. [Tools Used](#Tools Used)
-10. [Tools Used](#Tools Used)
 11. [Author](#Author)
 12. [Acknowledgements](#Acknowledgements)
 13. [References](#References)
 # Introduction:
 The fundamental, versatile and integral building block in analog and mixed signal circuit designs is an Operational amplifier. Opamps find a wide Varity of applications in comparators, differentiator’s bias applications etc. The scaling down of CMOS technology has created issues in design of Opamps and other circuits. With reduction of supply voltage it’s difficult to cascade transistors. The draw backs of single stage Opamps are overcome by implementing multistage amplifiers. These are used to achieve higher gain despite limitation of supply voltage. Due to high gain and high output swing two stage Opamp is most in use. The two pole transfer function of uncompensated Opamp lie below Unity Gain Frequency, hence to obtain stability frequency compensation circuit is required.
-# Miller compensation technique
+# Miller Compensation Technique:
 ![image](https://user-images.githubusercontent.com/79392063/155585493-206ef16c-90da-4962-8132-2fee2844068c.png)
 The figure 1 shows the phase shift is below 450 when the gain of two stage Opamp is unity gain frequency. Hence, to achieve stability, compensation technique is required in a two-stage operational amplifier. This can be achieved by pole splitting using Miller effect as shown in figure 2.
 ![image](https://user-images.githubusercontent.com/79392063/155585632-d5dfee42-7e3d-4680-b701-b216648440f1.png)
- This is known as the Miller compensation technique. In this technique one pole is made more dominant by moving it down the frequency and the other less dominant by moving it up the frequency. A compensation capacitor is placed between the output of the first stage (differential amplifier) and the output of the operational amplifier as shown in figure 2.
+ This is known as the Miller compensation technique. In this technique one pole is made more dominant by moving it down the frequency and the other less dominant by moving it up the frequency.
  ![image](https://user-images.githubusercontent.com/79392063/155585699-75039b81-523b-4b94-8454-8e2891091a2d.png)
-# Design of two stage Opamp using Miller Compensation Technique.
+ A compensation capacitor is placed between the output of the first stage (differential amplifier) and the output of the operational amplifier as shown in figure 2.
+ # Design of two stage Opamp using Miller Compensation Technique:
 The first stage of the design is  NMOS differential amplifier with active load and in second stage is  a PMOS common source amplifier. Between the output of first stage and second stage a compensation capacitor Cc is connected. The compensation capacitor splits the poles to achieve the stability as shown in figure 4. The differential stage of opamp is formed using transistor M1, M2, M3 and M4 form the differential stage of the op-amp. The two nMOS transistors M1 and M2 form the differential inputs of the amplifier. The resistance of the input transistors and active load transistors which are M3 and M4 are the main resistances that contribute to the output. The transistors M6 and M7 forms a current sink load inverter.
 ![image](https://user-images.githubusercontent.com/79392063/155585752-5d6e4872-4db7-4885-b8b7-f2ea90a98907.png)
 
