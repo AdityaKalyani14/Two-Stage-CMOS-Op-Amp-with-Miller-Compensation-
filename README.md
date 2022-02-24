@@ -32,3 +32,22 @@ The Synopsys Custom Compiler™ design environment is a modern solution for full
 PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.<br />
 **Synopsys 28nm PDK:**
 The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit. 
+# Simulation Results
+# Netlist of the Circuit:
+Refer to the netlist of the circuits here: [Netlist](#Netlist)
+# Observations:
+ The design is to be implemented using 28ηm synopsis PDK. Op-amp designed here exhibits DC gain of >50 dB, 30MHz unity gain bandwidth, phase margin of >450, and slew rate >10 V/µS for typical 1 pF differential capacitive load. The power dissipation should be <500µW.
+# Author:
+Aditya Kalyani, Indian Institute of Technology, Dharwad, Karnataka
+# Acknowledgements:
+• Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
+• Cloud Based Analog IC Design Hackathon
+• Synopsys India
+• VLSI System Design (VSD) Corp. Pvt. Ltd India
+• Chinmay panda, IIT Hyderabad
+• Sameer Durgoji, NIT Karnataka
+
+References:
+1.	K. T. Tan, N. Ahmad, M. Mohamad Isa, and F. A. S. Musa , "Design and analysis of two stage CMOS operational amplifier using 0.13 µm technology", AIP Conference Proceedings  (2020.)    https://doi.org/10.1063/1.5142132.
+2.	Razavi, B. (2001). Design of Analog CMOS Integrated Circuit. McGraw-Hill
+3.	M. I. Idris, N. Yusop, S. A. M. Chachuli, M. M. Ismail, F. Arith, and A. M. Darsono, “Low power operational amplifier in 0.13um technology,” Mod. Appl. Sci., vol. 9, no. 1, pp. 34–44, 2015.
