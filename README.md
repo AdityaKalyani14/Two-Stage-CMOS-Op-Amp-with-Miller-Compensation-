@@ -9,9 +9,10 @@ This repository presents the design and analysis of Fully Differential Two-Stage
 7. [Netist](#Netlist)
 8. [Observation](#Observation)
 9. [Tools Used](#Tools Used)
-10. [Author](#Author)
-11. [Acknowledgements](#Acknowledgements)
-12. [References](#References)
+10. [Tools Used](#Tools Used)
+11. [Author](#Author)
+12. [Acknowledgements](#Acknowledgements)
+13. [References](#References)
 # Introduction:
 The fundamental, versatile and integral building block in analog and mixed signal circuit designs is an Operational amplifier. Opamps find a wide Varity of applications in comparators, differentiator’s bias applications etc. The scaling down of CMOS technology has created issues in design of Opamps and other circuits. With reduction of supply voltage it’s difficult to cascade transistors. The draw backs of single stage Opamps are overcome by implementing multistage amplifiers. These are used to achieve higher gain despite limitation of supply voltage. Due to high gain and high output swing two stage Opamp is most in use. The two pole transfer function of uncompensated Opamp lie below Unity Gain Frequency, hence to obtain stability frequency compensation circuit is required.
 # Miller compensation technique
