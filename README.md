@@ -20,8 +20,8 @@ The fundamental, versatile and integral building block in analog and mixed signa
   <Frequency Response of an uncompensated operational amplifier>
   <strong>Figure 1:</strong> Frequency Response of an uncompensated operational amplifier.
   </Frequency Response of an uncompensated operational amplifier>
-</figure>
-The {#Fig. 1} shows the phase shift is below 450 when the gain of two stage Opamp is unity gain frequency. Hence, to achieve stability, compensation technique is required in a two-stage operational amplifier. This can be achieved by pole splitting using Miller effect as shown in figure 2.
+</figure><br/>
+The Figure 1 shows the phase shift is below 450 when the gain of two stage Opamp is unity gain frequency. Hence, to achieve stability, compensation technique is required in a two-stage operational amplifier. This can be achieved by pole splitting using Miller effect as shown in figure 2.
 ![image](https://user-images.githubusercontent.com/79392063/155585632-d5dfee42-7e3d-4680-b701-b216648440f1.png)
  This is known as the Miller compensation technique. In this technique one pole is made more dominant by moving it down the frequency and the other less dominant by moving it up the frequency.
  ![image](https://user-images.githubusercontent.com/79392063/155585699-75039b81-523b-4b94-8454-8e2891091a2d.png)
