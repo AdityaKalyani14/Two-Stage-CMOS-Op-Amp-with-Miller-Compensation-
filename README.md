@@ -40,10 +40,10 @@ Refer to the netlist of the circuits here: [Netlist](#Netlist)
 # Author:
 Aditya Kalyani, Indian Institute of Technology, Dharwad, Karnataka
 # Acknowledgements:
-• Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
-• [Cloud Based Analog IC Design Hackathon](#https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
-• [Synopsys India](#https:www.https://www.synopsys.com/)
-• VLSI System Design (VSD) Corp. Pvt. Ltd India
+• Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.<br />
+• [Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)<br />
+• [Synopsys India](https:www.https://www.synopsys.com/)<br />
+• VLSI System Design (VSD) Corp. Pvt. Ltd India<br />
 • Chinmay panda, IIT Hyderabad
 • Sameer Durgoji, NIT Karnatak
 # References:
