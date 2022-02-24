@@ -34,7 +34,7 @@ PrimeWave™ Design Environment is a comprehensive and flexible environment for 
 The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit. 
 # Simulation Results
 # Netlist of the Circuit:
-Refer to the netlist of the circuits here: [Netlist](https://github.com/AdityaKalyani14/Two-Stage-CMOS-Op-Amp-with-Miller-Compensation-/blob/main/Design%20and%20Analysis%20of%20a%20Fully%20Differential%20Two-Stage%20CMOS%20Op-Amp%20with%20Miller%20Compensation%20in%2028%CE%B7m.pdf)
+Refer to the netlist of the circuits here: [Netlist](https://github.com/AdityaKalyani14/Two-Stage-CMOS-Op-Amp-with-Miller-Compensation-/blob/main/Netlist)
 # Observations:
  The design is to be implemented using 28ηm synopsis PDK. Op-amp designed here exhibits DC gain of >50 dB, 30MHz unity gain bandwidth, phase margin of >450, and slew rate >10 V/µS for typical 1 pF differential capacitive load. The power dissipation should be <500µW.
 # Author:
