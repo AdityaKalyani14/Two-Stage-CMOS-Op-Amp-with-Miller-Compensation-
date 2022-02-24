@@ -22,7 +22,7 @@ The fundamental, versatile and integral building block in analog and mixed signa
   <Frequency Response of an uncompensated operational amplifier>
   <p align="center"><strong>Figure 1:</strong> Frequency Response of an uncompensated operational amplifier.
   </Frequency Response of an uncompensated operational amplifier>
-</figure>
+
 The Figure 1 shows the phase shift is below 450 when the gain of two stage Opamp is unity gain frequency. Hence, to achieve stability, compensation technique is required in a two-stage operational amplifier. This can be achieved by pole splitting using Miller effect as shown in figure 2.
 <figure id="figref-Fig 2">
   <p align="center">
@@ -31,7 +31,7 @@ The Figure 1 shows the phase shift is below 450 when the gain of two stage Opamp
   <Frequency Response of an uncompensated operational amplifier>
   <p align="center"><strong>Figure 2:</strong> Pole splitting in Miller effect.
   </Pole splitting in Miller effect>
-</figure>
+
  This is known as the Miller compensation technique. In this technique one pole is made more dominant by moving it down the frequency and the other less dominant by moving it up the frequency.
  <figure id="figref-Fig 3">
   <p align="center">
@@ -40,7 +40,7 @@ The Figure 1 shows the phase shift is below 450 when the gain of two stage Opamp
   <Miller compensated operational amplifier>
   <p align="center"><strong>Figure 3:</strong> Miller compensated operational amplifier.
   </Miller compensated operational amplifier>
-</figure>
+
   A compensation capacitor is placed between the output of the first stage (differential amplifier) and the output of the operational amplifier as shown in figure 2.<br/>
  # Design of two stage Opamp using Miller Compensation Technique:
 The first stage of the design is  NMOS differential amplifier with active load and in second stage is  a PMOS common source amplifier. Between the output of first stage and second stage a compensation capacitor Cc is connected. The compensation capacitor splits the poles to achieve the stability as shown in figure 4. The differential stage of opamp is formed using transistor M1, M2, M3 and M4 form the differential stage of the op-amp. The two nMOS transistors M1 and M2 form the differential inputs of the amplifier. The resistance of the input transistors and active load transistors which are M3 and M4 are the main resistances that contribute to the output. The transistors M6 and M7 forms a current sink load inverter.
