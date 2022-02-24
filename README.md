@@ -26,9 +26,9 @@ The first stage of the design is  NMOS differential amplifier with active load a
 ![image](https://user-images.githubusercontent.com/79392063/155585752-5d6e4872-4db7-4885-b8b7-f2ea90a98907.png)
 
 # Tools Used:
-• Synopsys Custom Compiler:
-The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level. 
-• Synopsys Primewave:
-PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit. 
-• Synopsys 28nm PDK:
+ **Synopsys Custom Compiler:**
+The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level. /
+ **Synopsys Primewave:**
+PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit. /
+**Synopsys 28nm PDK:**
 The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit. 
