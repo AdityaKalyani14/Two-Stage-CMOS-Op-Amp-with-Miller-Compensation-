@@ -34,7 +34,7 @@ PrimeWave™ Design Environment is a comprehensive and flexible environment for 
 The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit. 
 # Simulation Results
 # Netlist of the Circuit:
-Refer to the netlist of the circuits here: [Netlist](#Netlist)
+Refer to the netlist of the circuits here: [Netlist](quora.com/profile/Ashish-Kulkarni-100)
 # Observations:
  The design is to be implemented using 28ηm synopsis PDK. Op-amp designed here exhibits DC gain of >50 dB, 30MHz unity gain bandwidth, phase margin of >450, and slew rate >10 V/µS for typical 1 pF differential capacitive load. The power dissipation should be <500µW.
 # Author:
