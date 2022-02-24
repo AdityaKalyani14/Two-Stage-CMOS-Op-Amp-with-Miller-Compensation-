@@ -39,7 +39,7 @@ The Figure 1 shows the phase shift is below 450 when the gain of two stage Opamp
   <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/155585699-75039b81-523b-4b94-8454-8e2891091a2d.png">
    </p> 
   <Miller compensated operational amplifier>
-  <p align="center"><strong>Figure 2:</strong> Miller compensated operational amplifier.
+  <p align="center"><strong>Figure 3:</strong> Miller compensated operational amplifier.
   </Miller compensated operational amplifier>
 </figure><br/>
   A compensation capacitor is placed between the output of the first stage (differential amplifier) and the output of the operational amplifier as shown in figure 2.
@@ -50,7 +50,7 @@ The first stage of the design is  NMOS differential amplifier with active load a
   <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/155585752-5d6e4872-4db7-4885-b8b7-f2ea90a98907.png">
    </p> 
   <Two stage Opamp using Miller Compensation Technique>
-  <p align="center"><strong>Figure 2:</strong> Two stage Opamp using Miller Compensation Technique.
+  <p align="center"><strong>Figure 4:</strong> Two stage Opamp using Miller Compensation Technique.
   </Two stage Opamp using Miller Compensation Technique>
 </figure><br/>
 # Tools Used:
@@ -62,7 +62,7 @@ PrimeWave™ Design Environment is a comprehensive and flexible environment for 
 The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit. 
 # Simulation Results
 # Netlist of the Circuit:
-Refer to the netlist of the circuits here: [Netlist](https://github.com/AdityaKalyani14/Two-Stage-CMOS-Op-Amp-with-Miller-Compensation-/blob/main/Netlist)
+Refer to the netlist of the circuits here:[Netlist](https://github.com/AdityaKalyani14/Two-Stage-CMOS-Op-Amp-with-Miller-Compensation-/blob/main/Netlist)
 # Observations:
  The design is to be implemented using 28ηm synopsis PDK. Op-amp designed here exhibits DC gain of >50 dB, 30MHz unity gain bandwidth, phase margin of >450, and slew rate >10 V/µS for typical 1 pF differential capacitive load. The power dissipation should be <500µW.
 # Author:
