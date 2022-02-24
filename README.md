@@ -5,7 +5,6 @@ This repository presents the design and analysis of Fully Differential Two-Stage
 2. [Miller compensation technique](#Miller compensation technique)
 3. [Design of two stage Opamp using Miller Compensation Technique](#Design of two stage Opamp using Miller Compensation Technique)
 4. [Schematics](#Schematics)
-5. [Schematics](#Schematics)
 6. [Simulation results](#Simulation results)
 7. [Netist](#Netlist)
 8. [Observation](#Observation)
