@@ -25,7 +25,14 @@ The fundamental, versatile and integral building block in analog and mixed signa
 </figure><br/>
 
 The Figure 1 shows the phase shift is below 450 when the gain of two stage Opamp is unity gain frequency. Hence, to achieve stability, compensation technique is required in a two-stage operational amplifier. This can be achieved by pole splitting using Miller effect as shown in figure 2.
-![image](https://user-images.githubusercontent.com/79392063/155585632-d5dfee42-7e3d-4680-b701-b216648440f1.png)
+<figure id="figref-Fig 2">
+  <p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/155585632-d5dfee42-7e3d-4680-b701-b216648440f1.png">
+   </p> 
+  <Frequency Response of an uncompensated operational amplifier>
+  <p align="center"><strong>Figure 2:</strong> Pole splitting in Miller effect.
+  </Pole splitting in Miller effect>
+</figure><br/>
  This is known as the Miller compensation technique. In this technique one pole is made more dominant by moving it down the frequency and the other less dominant by moving it up the frequency.
  ![image](https://user-images.githubusercontent.com/79392063/155585699-75039b81-523b-4b94-8454-8e2891091a2d.png)
  A compensation capacitor is placed between the output of the first stage (differential amplifier) and the output of the operational amplifier as shown in figure 2.
