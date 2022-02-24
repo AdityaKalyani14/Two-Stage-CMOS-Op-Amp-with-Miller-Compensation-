@@ -20,7 +20,7 @@ The fundamental, versatile and integral building block in analog and mixed signa
   <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/155585493-206ef16c-90da-4962-8132-2fee2844068c.png">
    </p> 
   <Frequency Response of an uncompensated operational amplifier>
-  <strong>Figure 1:</strong> Frequency Response of an uncompensated operational amplifier.
+  <p align="center"><strong>Figure 1:</strong> Frequency Response of an uncompensated operational amplifier.
   </Frequency Response of an uncompensated operational amplifier>
 </figure><br/>
 
