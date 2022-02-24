@@ -15,6 +15,12 @@ This repository presents the design and analysis of Fully Differential Two-Stage
 # Introduction:
 The fundamental, versatile and integral building block in analog and mixed signal circuit designs is an Operational amplifier. Opamps find a wide Varity of applications in comparators, differentiator’s bias applications etc. The scaling down of CMOS technology has created issues in design of Opamps and other circuits. With reduction of supply voltage it’s difficult to cascade transistors. The draw backs of single stage Opamps are overcome by implementing multistage amplifiers. These are used to achieve higher gain despite limitation of supply voltage. Due to high gain and high output swing two stage Opamp is most in use. The two pole transfer function of uncompensated Opamp lie below Unity Gain Frequency, hence to obtain stability frequency compensation circuit is required.
 # Miller Compensation Technique:
+<figure id="figref-Fig 1">
+  <img src="https://user-images.githubusercontent.com/79392063/155585493-206ef16c-90da-4962-8132-2fee2844068c.png">
+  <Frequency Response of an uncompensated operational amplifier>
+  <strong>Figure 1:</strong> This is the label text.
+  </Frequency Response of an uncompensated operational amplifier>
+</figure>
 ![Fig. 1: Frequency Response of an uncompensated operational amplifier](https://user-images.githubusercontent.com/79392063/155585493-206ef16c-90da-4962-8132-2fee2844068c.png)
 The {#Fig. 1: Frequency Response of an uncompensated operational amplifier} shows the phase shift is below 450 when the gain of two stage Opamp is unity gain frequency. Hence, to achieve stability, compensation technique is required in a two-stage operational amplifier. This can be achieved by pole splitting using Miller effect as shown in figure 2.
 ![image](https://user-images.githubusercontent.com/79392063/155585632-d5dfee42-7e3d-4680-b701-b216648440f1.png)
