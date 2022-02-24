@@ -2,7 +2,7 @@
 This repository presents the design and analysis of Fully Differential Two-Stage CMOS Op-Amp with Miller Compensation using Synopsis Custom Compiler on 28ηm CMOS Technology as a part of Cloud Based Analog IC Design Hackathon.
 # Table of Contents
 1. [Introduction](#Introduction)
-2. [Miller compensation technique](#Miller compensation technique)
+2. [Miller Compensation Technique](#Miller Compensation Technique)
 3. [Design of two stage Opamp using Miller Compensation Technique](#Design of two stage Opamp using Miller Compensation Technique)
 4. [Schematics](#Schematics)
 6. [Simulation results](#Simulation results)
