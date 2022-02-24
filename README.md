@@ -41,13 +41,12 @@ Refer to the netlist of the circuits here: [Netlist](#Netlist)
 Aditya Kalyani, Indian Institute of Technology, Dharwad, Karnataka
 # Acknowledgements:
 • Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
-• Cloud Based Analog IC Design Hackathon
-• Synopsys India
+• [Cloud Based Analog IC Design Hackathon](#https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+• [Synopsys India](#https:www.https://www.synopsys.com/)
 • VLSI System Design (VSD) Corp. Pvt. Ltd India
 • Chinmay panda, IIT Hyderabad
-• Sameer Durgoji, NIT Karnataka
-
-References:
+• Sameer Durgoji, NIT Karnatak
+# References:
 1.	K. T. Tan, N. Ahmad, M. Mohamad Isa, and F. A. S. Musa , "Design and analysis of two stage CMOS operational amplifier using 0.13 µm technology", AIP Conference Proceedings  (2020.)    https://doi.org/10.1063/1.5142132.
 2.	Razavi, B. (2001). Design of Analog CMOS Integrated Circuit. McGraw-Hill
 3.	M. I. Idris, N. Yusop, S. A. M. Chachuli, M. M. Ismail, F. Arith, and A. M. Darsono, “Low power operational amplifier in 0.13um technology,” Mod. Appl. Sci., vol. 9, no. 1, pp. 34–44, 2015.
