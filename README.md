@@ -34,12 +34,25 @@ The Figure 1 shows the phase shift is below 450 when the gain of two stage Opamp
   </Pole splitting in Miller effect>
 </figure><br/>
  This is known as the Miller compensation technique. In this technique one pole is made more dominant by moving it down the frequency and the other less dominant by moving it up the frequency.
- ![image](https://user-images.githubusercontent.com/79392063/155585699-75039b81-523b-4b94-8454-8e2891091a2d.png)
- A compensation capacitor is placed between the output of the first stage (differential amplifier) and the output of the operational amplifier as shown in figure 2.
+ <figure id="figref-Fig 3">
+  <p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/155585699-75039b81-523b-4b94-8454-8e2891091a2d.png">
+   </p> 
+  <Miller compensated operational amplifier>
+  <p align="center"><strong>Figure 2:</strong> Miller compensated operational amplifier.
+  </Miller compensated operational amplifier>
+</figure><br/>
+  A compensation capacitor is placed between the output of the first stage (differential amplifier) and the output of the operational amplifier as shown in figure 2.
  # Design of two stage Opamp using Miller Compensation Technique:
 The first stage of the design is  NMOS differential amplifier with active load and in second stage is  a PMOS common source amplifier. Between the output of first stage and second stage a compensation capacitor Cc is connected. The compensation capacitor splits the poles to achieve the stability as shown in figure 4. The differential stage of opamp is formed using transistor M1, M2, M3 and M4 form the differential stage of the op-amp. The two nMOS transistors M1 and M2 form the differential inputs of the amplifier. The resistance of the input transistors and active load transistors which are M3 and M4 are the main resistances that contribute to the output. The transistors M6 and M7 forms a current sink load inverter.
-![image](https://user-images.githubusercontent.com/79392063/155585752-5d6e4872-4db7-4885-b8b7-f2ea90a98907.png)
-
+<figure id="figref-Fig 4">
+  <p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/155585752-5d6e4872-4db7-4885-b8b7-f2ea90a98907.png">
+   </p> 
+  <Two stage Opamp using Miller Compensation Technique>
+  <p align="center"><strong>Figure 2:</strong> Two stage Opamp using Miller Compensation Technique.
+  </Two stage Opamp using Miller Compensation Technique>
+</figure><br/>
 # Tools Used:
  **Synopsys Custom Compiler:**
 The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level. <br />
