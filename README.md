@@ -40,7 +40,6 @@ The Figure 1 shows the phase shift is below 450 when the gain of two stage Opamp
   <Miller compensated operational amplifier>
   <p align="center"><strong>Figure 3:</strong> Miller compensated operational amplifier.
   </Miller compensated operational amplifier>
-
   A compensation capacitor is placed between the output of the first stage (differential amplifier) and the output of the operational amplifier as shown in figure 2.<br/>
  # Design of two stage Opamp using Miller Compensation Technique:
 The first stage of the design is  NMOS differential amplifier with active load and in second stage is  a PMOS common source amplifier. Between the output of first stage and second stage a compensation capacitor Cc is connected. The compensation capacitor splits the poles to achieve the stability as shown in figure 4. The differential stage of opamp is formed using transistor M1, M2, M3 and M4 form the differential stage of the op-amp. The two nMOS transistors M1 and M2 form the differential inputs of the amplifier. The resistance of the input transistors and active load transistors which are M3 and M4 are the main resistances that contribute to the output. The transistors M6 and M7 forms a current sink load inverter.
@@ -53,7 +52,7 @@ The first stage of the design is  NMOS differential amplifier with active load a
   </Two stage Opamp using Miller Compensation Technique>
 
 # Tools Used:
- **Synopsys Custom Compiler:**
+ ##Synopsys Custom Compiler:##
 The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level. <br />
  **Synopsys Primewave:**
 PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.<br />
