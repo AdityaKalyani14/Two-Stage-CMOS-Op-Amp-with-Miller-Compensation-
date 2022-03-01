@@ -54,7 +54,7 @@ The first stage of the design is  NMOS differential amplifier with active load a
   </Two stage Opamp using Miller Compensation Technique>
    
 # Schematic:
-   The figure 5 shows the schematic of the Two stage Amplifier with Miller Compansation 
+   The figure 5 shows the schematic of the Two stage Amplifier with Miller Compansation. 
    <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/156167814-96860f6d-062f-4080-ae75-f695baa667d0.png">
    </p> 
@@ -63,7 +63,7 @@ The first stage of the design is  NMOS differential amplifier with active load a
   </Schematic of two stage Opamp using Miller Compensation Technique>
   
 # Simulation Results:
-   The figure 6 shows the simulations results
+   The figure 6 shows the frequency response plot of two stage Opamp using Miller Compensation Technique.
     <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/156167460-a8f7c4a8-0b83-4b7e-a04e-98bba0ff5597.png">
    </p> 
