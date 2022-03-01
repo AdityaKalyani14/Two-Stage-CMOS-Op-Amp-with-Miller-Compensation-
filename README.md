@@ -1,5 +1,5 @@
 # Two-Stage-CMOS-Op-Amp-with-Miller-Compensation
-This repository presents the design and analysis of Fully Differential Two-Stage CMOS Op-Amp with Miller Compensation using Synopsis Custom Compiler on 28ηm CMOS Technology as a part of Cloud Based Analog IC Design Hackathon.
+This repository presents the design and analysis of Fully Differential Two-Stage CMOS Op-Amp with Miller Compensation using Synopsis Custom Compiler on 28ηm CMOS Technology( 32nm Technology) as a part of Cloud Based Analog IC Design Hackathon.
 # Table of Contents
 1. [Introduction](#Introduction)
 2. [Miller Compensation Technique](#Miller)
@@ -20,16 +20,16 @@ The fundamental, versatile and integral building block in analog and mixed signa
   <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/155585493-206ef16c-90da-4962-8132-2fee2844068c.png">
    </p> 
   <Frequency Response of an uncompensated operational amplifier>
-  <p align="center"><strong>Figure 1:</strong> Frequency Response of an uncompensated operational amplifier.
+  <p align="center"><strong>Figure 1:</strong> Frequency Response of an uncompensated operational amplifier
   </Frequency Response of an uncompensated operational amplifier>
 
-The Figure 1 shows the phase shift is below 450 when the gain of two stage Opamp is unity gain frequency. Hence, to achieve stability, compensation technique is required in a two-stage operational amplifier. This can be achieved by pole splitting using Miller effect as shown in figure 2.
+The Figure 1 shows the phase shift is below 45 degree when the gain of two stage Opamp is unity gain frequency. Hence, to achieve stability, compensation technique is required in a two-stage operational amplifier. This can be achieved by pole splitting using Miller effect as shown in figure 2.
 <figure id="figref-Fig 2">
   <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/155585632-d5dfee42-7e3d-4680-b701-b216648440f1.png">
    </p> 
   <Frequency Response of an uncompensated operational amplifier>
-  <p align="center"><strong>Figure 2:</strong> Pole splitting in Miller effect.
+  <p align="center"><strong>Figure 2:</strong> Pole splitting in Miller effect
   </Pole splitting in Miller effect>
 
  This is known as the Miller compensation technique. In this technique one pole is made more dominant by moving it down the frequency and the other less dominant by moving it up the frequency.
@@ -38,7 +38,7 @@ The Figure 1 shows the phase shift is below 450 when the gain of two stage Opamp
   <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/155585699-75039b81-523b-4b94-8454-8e2891091a2d.png">
    </p> 
   <Miller compensated operational amplifier>
-  <p align="center"><strong>Figure 3:</strong> Miller compensated operational amplifier.
+  <p align="center"><strong>Figure 3:</strong> Miller compensated operational amplifier
   </Miller compensated operational amplifier>
    
   A compensation capacitor is placed between the output of the first stage (differential amplifier) and the output of the operational amplifier as shown in figure 3.
@@ -50,7 +50,7 @@ The first stage of the design is  NMOS differential amplifier with active load a
   <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/155585752-5d6e4872-4db7-4885-b8b7-f2ea90a98907.png">
    </p> 
   <Two stage Opamp using Miller Compensation Technique>
-  <p align="center"><strong>Figure 4:</strong> Two stage Opamp using Miller Compensation Technique.
+  <p align="center"><strong>Figure 4:</strong> Two stage Opamp using Miller Compensation Technique
   </Two stage Opamp using Miller Compensation Technique>
    
 # Schematic:
@@ -81,7 +81,7 @@ PrimeWave™ Design Environment is a comprehensive and flexible environment for 
 **Synopsys 28nm PDK:**
 The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit. 
 # Conclusion:
- The design is to be implemented using 28ηm synopsis PDK. Op-amp designed here exhibits DC gain of >50 dB, 30MHz unity gain bandwidth, phase margin of >450, and slew rate >10 V/µS for typical 1 pF differential capacitive load. The power dissipation should be <500µW.
+ The design is implemented in 32ηm (28ηm) synopsis PDK. Op-amp designed here exhibits DC gain of >50 dB, 30MHz unity gain bandwidth, phase margin of >45 degree, and slew rate >10 V/µS for typical 1 pF differential capacitive load. 
 # Author:
 Aditya Kalyani, Indian Institute of Technology, Dharwad, Karnataka
 # Acknowledgements:
