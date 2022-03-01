@@ -61,6 +61,9 @@ PrimeWave™ Design Environment is a comprehensive and flexible environment for 
 **Synopsys 28nm PDK:**
 The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit. 
 # Simulation Results:
+   The figure below shows the simulations results
+   ![image](https://user-images.githubusercontent.com/79392063/156167460-a8f7c4a8-0b83-4b7e-a04e-98bba0ff5597.png)
+
 # Netlist of the Circuit:
 Refer to the netlist of the circuits here:[Netlist](https://github.com/AdityaKalyani14/Two-Stage-CMOS-Op-Amp-with-Miller-Compensation-/blob/main/Netlist)
 # Observations:
