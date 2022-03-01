@@ -67,9 +67,10 @@ The first stage of the design is  NMOS differential amplifier with active load a
     <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/79392063/156167460-a8f7c4a8-0b83-4b7e-a04e-98bba0ff5597.png">
    </p> 
-  <Gain and >
-  <p align="center"><strong>Figure 6:</strong> Gain and 
-  </Schematic of two stage Opamp using Miller Compensation Technique>
+  <Frequency Response Plot>
+  <p align="center"><strong>Figure 6:</strong> Frequency Response Plot 
+  </Frequency Response Plot>
+   
 # Netlist of the Circuit:
 Refer to the netlist of the circuits here:[Netlist](https://github.com/AdityaKalyani14/Two-Stage-CMOS-Op-Amp-with-Miller-Compensation-/blob/main/Netlist)
    # Tools Used:
